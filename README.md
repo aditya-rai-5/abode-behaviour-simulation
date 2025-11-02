@@ -1,4 +1,4 @@
-# Abode Behaviour Simulation
+   # Abode Content Simulation
 
 This project implements a multi-stage machine learning pipeline to generate simulated marketing tweets. The core idea is to use a Vision-Language Model (VLM) to generate rich, objective captions for images, and then feed these captions (along with other metadata like username, likes, etc.) into a fine-tuned Large Language Model (LLM) to generate realistic tweet content.
 
