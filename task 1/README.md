@@ -84,4 +84,3 @@ If you want, I can:
 - or create the single-file README for the repository root describing both Task 1 and Task 2 (image captioning + content generation).
 
 ---
-Generated on: 2025-11-02
