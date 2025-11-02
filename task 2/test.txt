@@ -1,0 +1,19 @@
+
+target= "We are proud to say that for the 17th consecutive year, 
+we have received a 4-star rating from <mention> which means we're accountable, 
+transparent, and financially healthy! Check out our #CharityNavigator profile to learn more: <hyperlink> <hyperlink>"
+
+model_output = "We’re proud to be a 4-star rated charity by @CharityNavigator. 
+Our commitment to animal welfare & our community extends far beyond our stores. 
+Learn more about our charitable efforts <hyperlink> #PetsForLife"
+
+
+
+
+input= "Don’t Text and Drive. 57% of drivers surveyed believe those who are texting behind the wheel won’t get busted, 
+according to a new #AAA survey. Learn more: <hyperlink> <hyperlink>"
+
+output= "Don't Text While Driving This week, the American Automobile Association (AAA) released its Traffic Safety Culture Index for 2020. 
+The data reveals that 43% of drivers admit to texting while driving. 
+But texting while driving is a serious distraction that can have devastating consequences. 
+Stay safe, stay focused on the road! #TrafficSafety #DrivingSafety #TextingWhileDriving #StayFocused"

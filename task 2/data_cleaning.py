@@ -8,7 +8,6 @@ df = pd.read_csv("input file", nrows=1000)
 df['date'] = pd.to_datetime(df['date'], errors='coerce')
 
 def extract_media_url(media):
-    # Search for a URL pattern
     match = re.search(r"(https://[^'\)]+)", str(media))
     return match.group(1) if match else "no_media"
 
