@@ -1,7 +1,8 @@
 # Abode Behaviour Simulation
 
-This project implements an advanced social media marketing content generation system using Large Language Models (LLMs) and computer vision techniques. It simulates marketing behavior by generating contextually appropriate content based on various inputs including images, metadata, and brand identity.
+This project implements a multi-stage machine learning pipeline to generate simulated marketing tweets. The core idea is to use a Vision-Language Model (VLM) to generate rich, objective captions for images, and then feed these captions (along with other metadata like username, likes, etc.) into a fine-tuned Large Language Model (LLM) to generate realistic tweet content.
 
+The pipeline is divided into six main stages: data cleaning, image captioning, training prompt preparation, LLM fine-tuning, inference, and evaluation.
 ## Project Structure
 
 ```
