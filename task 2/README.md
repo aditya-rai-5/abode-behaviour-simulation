@@ -101,7 +101,3 @@ Metrics:
 - Pandas
 - Pillow
 - NLTK
-
-## License
-
-See the [LICENSE](LICENSE) file for details.
