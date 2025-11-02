@@ -72,15 +72,4 @@ Tips & common pitfalls
 - Do not fill categorical columns with numeric defaults (e.g., 0) before prediction — the notebook demonstrates safe handling (leave NaNs for categorical fields; fill numeric columns only).
 - The transformer inference step requires a GPU for speed; plan accordingly or run in small batches locally.
 
-Next steps / improvements
--------------------------
-- Automate the full pipeline into a single script (`train.py` / `predict.py`) so it can run outside notebooks.
-- Add unit tests for the feature generation functions and a small sample dataset to validate end-to-end behavior.
-- Add a lightweight CLI for batch inference using saved models and schema.
-
-If you want, I can:
-- add a `requirements.txt` with pinned versions,
-- convert the essential inference cells into a runnable `predict.py` script,
-- or create the single-file README for the repository root describing both Task 1 and Task 2 (image captioning + content generation).
-
 ---
