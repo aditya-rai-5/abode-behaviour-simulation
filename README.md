@@ -32,3 +32,7 @@ Evaluation
 ----------
 - Task 1 evaluation: RMSE on real likes (expm1 of log predictions) and per-class classification metrics (precision/recall/F1).
 - Task 2 evaluation: BLEU, ROUGE, and CIDEr implemented in `task 2/metric.py` (update the path to your results CSV before running).
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
